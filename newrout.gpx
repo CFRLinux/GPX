@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gpx 
+creator="Carsten Friedrichsen">
+    <metadata>
+        <time>2021-06-29T19:33:55Z</time>
+    </metadata>
+
+    <rte>
+        <name>Rute navn</name>
+
+        <extensions>
+            <gpxx:RouteExtension>
+                <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+            </gpxx:RouteExtension>
+        </extensions>
+		<rtept lat="55.06113" lon ="10.616097">
+		</rtept>
+		<rtept lat="55.060896" lon ="10.618072">
+		</rtept>
+		<rtept lat="55.058168" lon ="10.626891">
+		</rtept>
+		<rtept lat="55.057738" lon ="10.634143">
+		</rtept>
+		<rtept lat="55.056435" lon ="10.637276">
+		</rtept>
+		<rtept lat="55.053719" lon ="10.639808">
+		</rtept>
+		<rtept lat="55.045803" lon ="10.643563">
+		</rtept>
+		<rtept lat="55.044561" lon ="10.644583">
+		</rtept>
+		<rtept lat="55.04" lon ="10.645537">
+		</rtept>
+		<rtept lat="55.037983" lon ="10.646524">
+		</rtept>
+		<rtept lat="55.035598" lon ="10.661459">
+		</rtept>
+		<rtept lat="55.034565" lon ="10.664377">
+		</rtept>
+		<rtept lat="55.026448" lon ="10.665321">
+		</rtept>
+		<rtept lat="55.022217" lon ="10.679483">
+		</rtept>
+		<rtept lat="54.983327" lon ="10.718622">
+		</rtept>
+		<rtept lat="54.969608" lon ="10.707078">
+		</rtept>
+		<rtept lat="54.959581" lon ="10.710897">
+		</rtept>
+		<rtept lat="54.942576" lon ="10.706348">
+		</rtept>
+		<rtept lat="54.940431" lon ="10.706048">
+		</rtept>
+		<rtept lat="54.940246" lon ="10.707207">
+		</rtept>
+		<rtept lat="54.941109" lon ="10.709717">
+		</rtept>
+		<rtept lat="54.942034" lon ="10.710576">
+		</rtept>
+    </rte>
+</gpx>

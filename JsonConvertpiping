@@ -1,0 +1,18 @@
+#!/bin/bash
+
+sed 's/\[/\n/g' <geojson-all.json | #find alle forekomster af [ og udskift med LF
+sed '1,2d'| # slet første og anden linje
+sed 's/\]//g' | # find alle forekomster af ] og slet
+sed 's/,$//g' | # find sidste komme i hver linje og slet
+#sed 's/,$//g' | # find sidste komme i hver linje og slet
+sed 's/,/ /g' | # find , og erstat med space 
+sed 's/\}}//' | # find }} og slet
+sed '$ s/)//' | # find ) i sidste linje og slet
+#sed 's/\(.*\) \(.*\)/\t\t<trkpt lat="\2" lon ="\1">\n\t\t<\/trkpt>/g'  >test8.txt # byt op på tallene 
+sed 's/\(.*\) \(.*\)/\t\t<rtept lat="\2" lon ="\1">\n\t\t<\/rtept>/g'  >test8.txt # byt op på tallene 
+
+cat GPXRoutHeader.gpx >newrout.gpx
+cat test8.txt >> newrout.gpx
+cat GPXRoutFotter.gpx >>newrout.gpx
+
+

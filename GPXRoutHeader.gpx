@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gpx 
+creator="Carsten Friedrichsen">
+    <metadata>
+        <time>2021-06-29T19:33:55Z</time>
+    </metadata>
+
+    <rte>
+        <name>Rute navn</name>
+
+        <extensions>
+            <gpxx:RouteExtension>
+                <gpxx:IsAutoNamed>false</gpxx:IsAutoNamed>
+            </gpxx:RouteExtension>
+        </extensions>
